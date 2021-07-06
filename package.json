@@ -1,0 +1,16 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "browser-sync start --files=\"./**/*.css,./**/*.js, **/*.html\" -s"
+  },
+  "dependencies": {
+    "browser-sync": "2.26.14"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
